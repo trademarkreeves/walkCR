@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<title>Free Walking Tour Costa Rica</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="js/bootstrap.min.js"></script>
+
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="index.html"><img class="w3-left" src="images/homepage/FWTLogoTiny.jpg"></a>
+      <a href="attractions.html" class="w3-bar-item w3-button">Attractions</a>
+      <a href="photos.html" class="w3-bar-item w3-button">Photos</a>
+      <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#home" class="w3-bar-item w3-button"><b>FREE</b> Walking Tour Costa Rica</a>
+        <a href="https://www.facebook.com/Free-Walking-Tour-Costa-Rica-106136866226776/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>PURA VIDA!</b></h1>
+  <p><b>Fall in love with the beauty of Costa Rica.</b></p>
+  <p>Learn more about available tours by clicking <a color="blue" href="tours.html">here</a>.</p>
+  <p class="w3-padding-8"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="images/gallery/flowerInCity_2.jpg" style="width:100%">
+    <img src="images/gallery/tourpic_6.jpg" style="width:100%">
+    <img src="images/gallery/rocksJaco.JPG" style="width:100%">
+    <img src="images/gallery/tourpic_2.jpg" style="width:100%">
+    <img src="images/gallery/monkeys.jpg" style="width:100%">
+    <img src="images/gallery/sjo_belgianschool.jpg" style="width:100%">
+    <img src="images/gallery/market.jpg" style="width:100%">
+
+  </div>
+
+  <div class="w3-third">
+    <img src="images/gallery/tourpic_1.jpg" style="width:100%">
+    <img src="images/gallery/macawPair.jpg" style="width:100%">
+    <img src="images/gallery/SalizarTheater.jpg" style="width:100%">
+    <img src="images/gallery/flower_1.jpg" style="width:100%">
+    <img src="images/gallery/volcano_2.jpg" style="width:100%">
+    <img src="images/gallery/church.jpg" style="width:100%">
+    <img src="images/gallery/jacoAbove.JPG" style="width:100%">
+
+  </div>
+
+  <div class="w3-third">
+    <img src="images/gallery/flower_3.jpg" style="width:100%">
+    <img src="images/gallery/wildlife.jpg" style="width:100%">
+    <img src="images/gallery/flower_2.jpg" style="width:100%">
+    <img src="images/gallery/tourpic_8.jpg" style="width:100%">
+    <img src="images/gallery/scenery.JPG" style="width:100%">
+    <img src="images/gallery/tourpic_4.jpg" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+
+
+
+<<div class="w3-container w3-padding-32" id="contact"></br>
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+  <p>So, where do you want to go? Contact me to reserve a tour!</p>
+  <p>E-mail option coming soon. For now, please call +506 7142 3961.<p>
+<!--    <form action="/action_page.php" target="_blank">
+    <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+    <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+    <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+    <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+    <button class="w3-button w3-black w3-section" type="submit">
+      <i class="fa fa-paper-plane"></i> SEND MESSAGE
+    </button>
+  </form>
+-->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px">
+  <a href="https://www.facebook.com/Free-Walking-Tour-Costa-Rica-106136866226776/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  </footer>
+
+
+
+</body>
+
+<!-- Page content -->
+
+
+
+
+
+
+
+<script>
+// Toggle grid padding
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else {
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
+}
+
+// Open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</html>
